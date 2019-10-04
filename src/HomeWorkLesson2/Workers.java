@@ -8,7 +8,7 @@ public class Workers {
     private static int count = 0;
 
 //Constructor
-    public Workers (String firstName, String secondName, int age){
+    private Workers (String firstName, String secondName, int age){
         this.firstName = firstName;
         this.secondName = secondName;
         this.age = age;
@@ -16,12 +16,12 @@ public class Workers {
     }
 
 //Worker introduction
-    public void worker(){
+    private void worker(){
         System.out.printf("My name is %s %s \n", firstName, secondName);
     }
 
 //Worker count
-    public static int getCount(){
+    private static int getCount(){
         return count;
     }
 
@@ -90,7 +90,7 @@ public static void main(String[] args){
                 "; ";
     }
 
-/*//Getter
+//Getter
     public String getFirstName() {
         return firstName;
     }
@@ -114,5 +114,5 @@ public static void main(String[] args){
 
     public void setAge(int age) {
         this.age = age;
-    }*/
+    }
 }
