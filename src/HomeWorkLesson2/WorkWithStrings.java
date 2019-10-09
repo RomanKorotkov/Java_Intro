@@ -4,21 +4,26 @@ import java.util.Scanner;
 
 public class WorkWithStrings {
     public static void main(String[] string) {
-        eachNth();
-
+       // eachNth();
+        System.out.println(eachNth());
     }
 
     //Variant1
-    private static void eachNth() {
+    private static String eachNth() {
         Scanner in = new Scanner(System.in);
         System.out.println("Please input string");
         String new_string = in.nextLine();
         System.out.println("Please input number");
         int number = in.nextInt();
         char[] chars = new_string.toCharArray();
+        String out = "";
         for (int i = 0; i < chars.length; i = i + number) {
-            System.out.print(chars[i]);
+
+            out += chars[i];
+
+           // System.out.print(chars[i]);
         }
+        return out;
 
 
         //Variant2
