@@ -3,6 +3,7 @@ package lesson01;
 import com.sun.javaws.IconUtil;
 import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MyFirstProgramm {
@@ -16,8 +17,9 @@ public class MyFirstProgramm {
         //Operations();
         //Bank2Circles();
         //Bank2CircleWhile();
-        xyzz();
-        xyzzz();
+        //xyzz();
+        //xyzzz();
+
 
     }
 
@@ -260,6 +262,10 @@ public class MyFirstProgramm {
         System.out.println("After 10 years generation will be " + generation);
     }
     //Решено
+
+
+
+
 
 }
 

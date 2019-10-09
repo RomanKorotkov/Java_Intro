@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class WorkWithStrings {
     public static void main(String[] string) {
         eachNth();
+
     }
 
     //Variant1
@@ -16,17 +17,20 @@ public class WorkWithStrings {
         int number = in.nextInt();
         char[] chars = new_string.toCharArray();
         for (int i = 0; i < chars.length; i = i + number) {
-            System.out.println(chars[i]);
+            System.out.print(chars[i]);
         }
 
+
         //Variant2
-        String miracle = "Miracle";
+
+       /* String miracle = "Miracle";
         int num1 = 2;
         char[] chars2 = miracle.toCharArray();
         for (int i = 0; i < chars2.length; i = i + num1) {
-            System.out.println(chars2[i]);
+            System.out.print(chars2[i]);
 
-        }
+        }*/
+
     }
 
 }
