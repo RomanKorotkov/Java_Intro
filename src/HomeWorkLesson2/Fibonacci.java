@@ -11,13 +11,13 @@ public class Fibonacci {
     static void printFibonacciNumbers() {
         while (true) {
             Scanner in = new Scanner(System.in);
-            System.out.println("Please input");
+            System.out.println("Please input number");
             int param = in.nextInt();
             int defoult_param1 = 0;
             int defoult_param2 = 1;
 
             if (param < 1) {
-                System.out.println("Please input > 0");
+                System.out.println("Please enter a positive number more than 0");
 
             } else {
                 for (int i = 1; i < param; i = ++i) {
