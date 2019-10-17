@@ -34,7 +34,7 @@ abstract class AnimalParams {
     }
 
     public void running(Run speed) {
-        System.out.printf("%s can running %s k/h %n", getType(), speed.getSpeed());
+        System.out.printf("%s can running %s km/h %n", getType(), speed.getSpeed());
     }
 
     public void voice(Voice sound) {
