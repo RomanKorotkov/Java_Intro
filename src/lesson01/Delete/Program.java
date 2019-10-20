@@ -1,4 +1,4 @@
-package HomeWorkLesson2.Delete;
+package lesson01.Delete;
 
 public class Program {
     public static void main(String []mobile){

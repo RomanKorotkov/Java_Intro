@@ -1,4 +1,4 @@
-package HomeWorkLesson2.Delete;
+package lesson01.Delete;
 
 public interface Cell {
     void insertSimCard();
