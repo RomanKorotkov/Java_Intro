@@ -24,7 +24,7 @@ public class Plazma extends BaseTv {
         System.out.println("Select channel");
         channel = in.nextLine();
 
-        if (channel.equals("1") || channel.equals("2") || channel.equals("3"))
+       // if (channel.equals("1") || channel.equals("2") || channel.equals("3"))
             switch (channel) {
                 case "1":
                     System.out.printf("You watching 'Trofei' channel %n");

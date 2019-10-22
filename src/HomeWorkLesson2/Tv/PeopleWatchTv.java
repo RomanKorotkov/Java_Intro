@@ -33,7 +33,7 @@ public class PeopleWatchTv {
         pablo.coloring(ScreenColor.BLACKWHITE);
         pablo.search();
         pablo.channels("");
-        pablo.volume("");
+        //pablo.volume("");
         //pablo.d();
         pablo.off();
         System.out.printf("%n");
