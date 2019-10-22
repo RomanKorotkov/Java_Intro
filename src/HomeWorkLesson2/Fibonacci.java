@@ -13,8 +13,8 @@ public class Fibonacci {
             Scanner in = new Scanner(System.in);
             System.out.println("Please input number");
             int param = in.nextInt();
-            int defoult_param1 = 1;
-            int defoult_param2 = 0;
+            int defoult_param1 = 0;
+            int defoult_param2 = 1;
 
             if (param < 1) {
                 System.out.println("Please enter a positive number more than 0");
