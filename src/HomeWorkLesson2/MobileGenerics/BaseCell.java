@@ -1,4 +1,4 @@
-package HomeWorkLesson2.MobileGeneric;
+package HomeWorkLesson2.MobileGenerics;
 
 //Base class included model phone String
 public abstract class BaseCell implements Cell {

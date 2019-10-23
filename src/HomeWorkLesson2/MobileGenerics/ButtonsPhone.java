@@ -1,16 +1,16 @@
-package HomeWorkLesson2.MobileGeneric;
+package HomeWorkLesson2.MobileGenerics;
 
 import java.util.Scanner;
 
-//Class SmartPhone include implementation
-public class SmartPhone extends BaseCell {
+//Class ButtonsPhone include implementation
+public class ButtonsPhone extends BaseCell {
 
     //Super constructor
-    public SmartPhone(String model) {
+    public ButtonsPhone(String model) {
         super(model);
     }
 
-    //Getter model from BaseCell
+    //Getter String model from BaseCell
     public String getModel() {
         return model;
     }
@@ -18,7 +18,7 @@ public class SmartPhone extends BaseCell {
     //Implementation
     @Override
     public void insertSim() {
-        System.out.printf("Nano sim card was inserted into %s %n", getModel());
+        System.out.printf("Default sim card was inserted into %s %n", getModel());
     }
 
     @Override
@@ -32,25 +32,25 @@ public class SmartPhone extends BaseCell {
 
     @Override
     public void getCall(String number) {
-        System.out.printf("You have got call from number - %s by 'swipe right' action %n", number);
+        System.out.printf("You have got call from number - %s  by 'green' button %n", number);
 
     }
 
     @Override
     public void saveNumber(String number) {
-        System.out.printf("You have saved number - %s on a Google account %n", number);
+        System.out.printf("You have saved number -  %s on sim cart %n", number);
 
     }
 
     @Override
     public void lockPhone() {
-        System.out.printf("Phone was locked by 'border' button %n");
+        System.out.printf("Phone was locked by '*' button %n");
 
     }
 
     @Override
     public void unlockPhone() {
-        System.out.printf("Phone was unlocked by 'swipe up' action %n");
+        System.out.printf("Phone was unlocked by 'Unlock' button %n");
 
     }
 }

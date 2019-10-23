@@ -1,4 +1,4 @@
-package HomeWorkLesson2.MobileGeneric;
+package HomeWorkLesson2.MobileGenerics;
 
 //Interface with phone functionality
 public interface Cell {

@@ -1,4 +1,4 @@
-package HomeWorkLesson2.MobileGeneric;
+package HomeWorkLesson2.MobileGenerics;
 
 //Class with human implementation with generic
 public class Human<T extends BaseCell> {

@@ -1,4 +1,4 @@
-package HomeWorkLesson2.MobileGeneric;
+package HomeWorkLesson2.MobileGenerics;
 
 //Main class realisation
 public class PeopleWithMobiles {
