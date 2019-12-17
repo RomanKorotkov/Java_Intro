@@ -30,6 +30,7 @@ public class BoxPrinter<T> {
     public static void main(String[] args) {
         BoxPrinter<Integer> boxPrinter1 = new BoxPrinter<>(50);
         BoxPrinter<String> boxPrinter2 = new BoxPrinter<>("Hello World!");
+        BoxPrinter<String> a = new BoxPrinter<>("");
 
         System.out.println(boxPrinter1);
         System.out.println("value = " + boxPrinter1.getVal());
